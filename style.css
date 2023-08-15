@@ -1,0 +1,161 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.banner
+{
+    width: 100%;
+    height: 70vh;
+    border: 2px solid black;
+    background-image: url("https://wallpaperaccess.com/full/2529480.jpg");
+    background-size:cover;
+}
+.bannerup
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.89),rgba(0, 0, 0, 0.09));
+    color: white;
+    padding-top: 5vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.head
+{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(66, 135, 245);
+    padding-top: 5vh;
+    font-size: 5vh;
+    height: 15vh;
+    width: 100%;
+}
+.items
+{
+    width: 500px;
+    font-size: larger;
+}
+.button
+{
+    height: 10vh;
+    width: 30vh;
+    color: rgb(66, 135, 245);
+    border: 2px solid rgb(66, 135, 245);
+    padding-left: 10px;
+    border-radius: 25px;
+}
+.button:hover{
+    background-color: rgb(66, 135, 245);
+    color: black;
+}
+.postbanner
+{
+    height: 90vh;
+    width: 100%;
+    background-image: url("intro.gif");
+    background-size: cover;
+}
+.ripbanner
+{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 8vh;
+}
+.ripbanner ul
+{
+    list-style-type: none;
+}
+.heroes
+{
+    width: 100%;
+    height: 150vh;
+}
+.herorip
+{
+    /* width: 80%;
+    margin: auto;
+    height: 100%; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+}
+.herocard
+{
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+}
+.herocard img
+{
+    transition: transform .5s;
+}
+.herocard img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .hi
+  {
+    height: 80vh;
+  }
+.pb
+{
+    background-image: url("wbintro.gif");
+    height: 80vh;
+    background-size: cover;
+}
+.hc
+{
+    transition: transform .5s;
+}
+.hc:hover
+{
+    transform: scale(1.1);
+}
+.footer
+{
+  width: 100%;
+  height: 45vh;
+  background-color: rgb(38, 37, 37);
+}
+.forlio
+{
+  color: white;
+}
+.footerrap
+{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap:60px;
+}
+.footmenu
+{
+  padding-top: 30px;
+}
+.footmenu ul
+{
+  list-style-type: none;
+  
+}
+.footmenu ul li{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.forlio ul a{
+  text-decoration: none;
+  color: aliceblue
+}
+.rights a{
+  text-decoration: none;
+  color: aliceblue
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("home_bgimg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav
+{
+    width: 100%;
+    height: 15vh;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0));
+    /* color: white; */
+}
+.nav ul a
+{
+    text-decoration: none;
+    color: black;
+}
+.logo a
+{
+    text-decoration: none;
+    color: black;
+}
+.navrip
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.logo
+{
+    padding-top: 25px;
+}
+.navmenu ul
+{
+  list-style-type: none;
+  padding-top: 30px;
+}
+.navmenu ul li{
+    display: inline;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.banner
+{
+    height: 55vh;
+    width: 100%;
+    color: rgb(144, 144, 10);
+    /* border-bottom: 2px solid red; */
+    font-size: 10vh;
+    /* background-image: linear-gradient(to right,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.11)); */
+}
+.banner p{
+    text-shadow: 5px 5px rgba(0,0,0, 0.34);
+    font-weight: bolder;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.head
+{
+    width: 100%;
+    background-color: aliceblue;
+    height: 10vh;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+.loc
+{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+.locrip
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+}
+.locrip a
+{
+    color: black;
+    text-decoration: none;
+}
+.loccard
+{
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    height: 168px;
+}
+.loccard:hover
+{
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2), 0 30px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.service
+{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+.servicerip
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 20px;
+}
+.logopr
+{
+    width: 266px;
+    height: 190px;
+}
+.logopr:hover
+{
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2), 0 30px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.about
+{
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+}
+.aboutrip
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.letter1
+{
+    font-size: 5vh;
+}
+.footer
+{
+  width: 100%;
+  height: 45vh;
+  background-color: rgb(38, 37, 37);
+}
+.forlio
+{
+  color: white;
+}
+.footerrap
+{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap:60px;
+}
+.footmenu
+{
+  padding-top: 30px;
+}
+.footmenu ul
+{
+  list-style-type: none;
+  
+}
+.footmenu ul li{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.forlio ul a{
+  text-decoration: none;
+  color: aliceblue
+}
+.rights a{
+  text-decoration: none;
+  color: aliceblue
+}
